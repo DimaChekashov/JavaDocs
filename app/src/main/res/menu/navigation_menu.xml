@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/chapter_1"
-        android:title="Язык программирования Java" />
-    <item
-        android:id="@+id/chapter_2"
-        android:title="Структура программы" />
-    <item
-        android:id="@+id/chapter_3"
-        android:title="Переменные и константы" />
-
+    <item android:title="Глава 1. Введение в Java">
+        <menu>
+            <group android:id="@+id/part_1">
+                <item
+                    android:id="@+id/chapter_1"
+                    android:title="@string/title_chapter_1" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Глава 2. Основы программирования на Java">
+        <menu>
+            <group android:id="@+id/part_2">
+                <item
+                    android:id="@+id/chapter_2"
+                    android:title="@string/title_chapter_2" />
+                <item
+                    android:id="@+id/chapter_3"
+                    android:title="@string/title_chapter_3" />
+            </group>
+        </menu>
+    </item>
 </menu>
