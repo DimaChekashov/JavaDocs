@@ -19,6 +19,54 @@
                 <item
                     android:id="@+id/chapter_3"
                     android:title="@string/title_chapter_3" />
+                <item
+                    android:id="@+id/chapter_4"
+                    android:title="@string/title_chapter_4" />
+                <item
+                    android:id="@+id/chapter_5"
+                    android:title="@string/title_chapter_5" />
+                <item
+                    android:id="@+id/chapter_6"
+                    android:title="@string/title_chapter_6" />
+                <item
+                    android:id="@+id/chapter_7"
+                    android:title="@string/title_chapter_7" />
+                <item
+                    android:id="@+id/chapter_8"
+                    android:title="@string/title_chapter_8" />
+                <item
+                    android:id="@+id/chapter_9"
+                    android:title="@string/title_chapter_9" />
+                <item
+                    android:id="@+id/chapter_10"
+                    android:title="@string/title_chapter_10" />
+                <item
+                    android:id="@+id/chapter_11"
+                    android:title="@string/title_chapter_11" />
+                <item
+                    android:id="@+id/chapter_12"
+                    android:title="@string/title_chapter_12" />
+                <item
+                    android:id="@+id/chapter_13"
+                    android:title="@string/title_chapter_13" />
+                <item
+                    android:id="@+id/chapter_14"
+                    android:title="@string/title_chapter_14" />
+                <item
+                    android:id="@+id/chapter_15"
+                    android:title="@string/title_chapter_15" />
+                <item
+                    android:id="@+id/chapter_16"
+                    android:title="@string/title_chapter_16" />
+                <item
+                    android:id="@+id/chapter_17"
+                    android:title="@string/title_chapter_17" />
+                <item
+                    android:id="@+id/chapter_18"
+                    android:title="@string/title_chapter_18" />
+                <item
+                    android:id="@+id/chapter_19"
+                    android:title="@string/title_chapter_19" />
             </group>
         </menu>
     </item>

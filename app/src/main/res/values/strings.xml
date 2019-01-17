@@ -3,7 +3,26 @@
     <string name="open">Открыть</string>
     <string name="close">Закрыть</string>
 
+    <!-- Part 1 -->
     <string name="title_chapter_1">Язык программирования Java</string>
+    <!-- Part 2 -->
     <string name="title_chapter_2">Структура программы</string>
     <string name="title_chapter_3">Переменные и константы</string>
+    <string name="title_chapter_4">Типы данных</string>
+    <string name="title_chapter_5">Консольный ввод/вывод в Java</string>
+    <string name="title_chapter_6">Арифметические операции</string>
+    <string name="title_chapter_7">Побитовые операции</string>
+    <string name="title_chapter_8">Условные выражения</string>
+    <string name="title_chapter_9">Операции присваивания и приоритет операций</string>
+    <string name="title_chapter_10">Преобразования базовых типов данных</string>
+    <string name="title_chapter_11">Условные конструкции</string>
+    <string name="title_chapter_12">Циклы</string>
+    <string name="title_chapter_13">Массивы</string>
+    <string name="title_chapter_14">Методы</string>
+    <string name="title_chapter_15">Параметры методов</string>
+    <string name="title_chapter_16">Оператор return. Результат метода</string>
+    <string name="title_chapter_17">Перегрузка методов</string>
+    <string name="title_chapter_18">Рекурсивные функции</string>
+    <string name="title_chapter_19">Введение в обработку исключений</string>
+    <!-- Part 3 -->
 </resources>
