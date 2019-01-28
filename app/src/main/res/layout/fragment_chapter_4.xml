@@ -24,6 +24,400 @@
             android:textSize="28sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Одной из основных особенностей Java является то, что данный язык является строго типизированным. А это значит, что каждая переменная и константа представляет определенный тип и данный тип строго определен. Тип данных определяет диапазон значений, которые может хранить переменная или константа."
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Итак, рассмотрим систему встроенных базовых типов данных, которая используется для создания переменных в Java. А она представлена следующими типами."
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="boolean: хранит значение true или false"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="boolean isActive = false;\nboolean isAlive = true;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="byte: хранит целое число от -128 до 127 и занимает 1 байт"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="byte a = 3;\nbyte b = 8;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="short: хранит целое число от -32768 до 32767 и занимает 2 байта"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="short a = 3;\nshort b = 8;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="int: хранит целое число от -2147483648 до 2147483647 и занимает 4 байта"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="int a = 4;\nint b = 9;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="long: хранит целое число от –9 223 372 036 854 775 808 до 9 223 372 036 854 775 807 и занимает 8 байт"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="long a = 5;\nlong b = 10;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="double: хранит число с плавающей точкой от ±4.9*10-324 до ±1.8*10308 и занимает 8 байт"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="double x = 8.5;\ndouble y = 2.7;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="В качестве разделителя целой и дробной части в дробных литералах используется точка."
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="float: хранит число с плавающей точкой от -3.4*1038 до 3.4*1038 и занимает 4 байта"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="float x = 8.5F;\nfloat y = 2.7F;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="char: хранит одиночный символ в кодировке UTF-16 и занимает 2 байта, поэтому диапазон хранимых значений от 0 до 65536"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="При этом переменная может принимать только те значения, которые соответствуют ее типу. Если переменная предствляет целочисленный тип, то она не может хранить дробные числа."
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="Целые числа"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Все целочисленные литералы, например, 10,4, -5, воспринимаются как значения типа int, однако мы можем присваивать целочисленные литералы другим целочисленным типам: byte, long, short. В этом случае Java автоматически осуществляет соответствующие преобразования:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="byte a = 1;\nshort b = 2;\nlong c = 2121;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Однако если мы захотим присвоить переменной типа long очень большое число, которое выходит за пределы допустимых значений для типа int, то мы столкнемся с ошибкой во время компиляции:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="long num = 2147483649;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Здесь число 2147483649 является допустимым для типа long, но выходит за предельные значения для тпа int. И так как все целочисленные значения по умолчанию расцениваются как значения типа int, то компилятор укажет нам на ошибку. Чтобы решить проблему, надо добавить к числу суффикс l или L, который указывает, что число представляет тип long:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="long num = 2147483649L;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Как правило, значения для целочисленных переменных задаются в десятичной системе счисления, однако мы можем применять и другие системы исчисления. Например:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="int num111 = 0x6F; // 16-тиричная система, число 111\nint num8 = 010; // 8-ричная система, число 8\nint num13 = 0b1101; // 2-ичная система, число 13"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Для задания шестнадцатеричного значения после символов 0x указывается число в шестнадцатеричном формате. Таким же образом восьмеричное значение указывается после символа 0, а двоичное значение - после символов 0b."
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Также целые числа поддерживают разделение разрядов числа с помощью знака подчеркивания:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="int x = 123_456;\nint y = 234_567__789;\nSystem.out.println(x);  // 123456\nSystem.out.println(y);  // 234567789"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:text="Числа с плавающей точкой"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="При присвоении переменной типа float дробного литерала с плавающей точкой, например, 3.1, 4.5 и т.д., Java автоматически рассматривает этот литерал как значение типа double. И чтобы указать, что данное значение должно рассматриваться как float, нам надо использовать суффикс f:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="float fl = 30.6f;\ndouble db = 30.6;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="И хотя в данном случае обе переменных имеют практически одно значения, но эти значения будут по-разному рассматриваться и будут занимать разное место в памяти."
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="Символы и строки"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="В качестве значения переменная символьного типа получает одиночный символ, заключенный в ординарные кавычки: char ch='e';. Кроме того, переменной символьного типа также можно присвоить целочисленное значение от 0 до 65536. В этом случае переменная опять же будет хранить символ, а целочисленное значение будет указывать на номер символа в таблице символов Unicode (UTF-16). Например:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="char ch=102; // символ 'f'\nSystem.out.println(ch);"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Еще одной формой задания символьных переменных является шестнадцатеричная форма: переменная получает значение в шестнадцатеричной форме, которое следует после символов &quot;\u&quot;. Например, char ch='\u0066'; опять же будет хранить символ 'f'."
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Символьные переменные не стоит путать со строковыми, 'a' не идентично &quot;a&quot;. Строковые переменные представляют объект String, который в отличие от char или int не является примитивным типов в Java:"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSecondaryDark"
+            android:padding="5dp"
+            android:text="String hello = &quot;Hello...&quot;;\nSystem.out.println(hello);"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
     </LinearLayout>
 
 </ScrollView>
